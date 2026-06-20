@@ -1,0 +1,21 @@
+{
+  "name": "ياسر للنجارة",
+  "short_name": "ياسر",
+  "description": "نجار بالرياض متخصص في تفصيل الخزائن والدواليب وغرف النوم",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F8F6F3",
+  "theme_color": "#6D4C41",
+  "icons": [
+    {
+      "src": "https://imgg.io/images/2026/06/20/657d0c7a3166f50d061560d781d8b4fc.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://imgg.io/images/2026/06/20/657d0c7a3166f50d061560d781d8b4fc.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
