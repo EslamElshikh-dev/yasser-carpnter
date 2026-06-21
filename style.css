@@ -205,6 +205,7 @@ body {
 
 .service-content {
     padding: 20px;
+    text-align: center; /* لتوسيط النصوص والأزرار */
 }
 
 .service-content h3 {
@@ -399,9 +400,15 @@ input, select, textarea {
     padding: 30px 0;
 }
 
+/* تنسيق الفوتر ليكون الحقوق يمين والتوقيع يسار */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .designer-signature {
-    display: inline-block;
-    margin-top: 15px;
     color: var(--secondary);
     text-decoration: none;
     font-size: 0.9rem;
@@ -449,4 +456,12 @@ input, select, textarea {
     .contact-grid { grid-template-columns: 1fr; }
     .hero-title { font-size: 2rem; }
     .nav { display: none; } /* يفضل إضافة قائمة جانبية للجوال */
+    
+    /* إعدادات الفوتر في شاشة الجوال */
+    .footer-content {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
 }
